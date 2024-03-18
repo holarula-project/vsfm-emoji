@@ -1,0 +1,23 @@
+{
+  "name": "vsfm-emoji",
+  "description": "这是给Mikufans录播表情弹幕转换的辅助项目。主要包含了一些获取表情包的程序和数据源。",
+  "private": true,
+  "author": "嵐プロジェクト",
+  "license": "MIT",
+  "homepage": "https://github.com/holarula-project/vsfm-emoji#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holarula-project/vsfm-emoji.git"
+  },
+  "bugs": {
+    "url": "https://github.com/holarula-project/vsfm-emoji/issues"
+  },
+  "type": "module",
+  "scripts": {
+    "lan_free_dl": "node ./src/lan_free_dl.mjs"
+  },
+  "dependencies": {
+    "download": "^8.0.0",
+    "jsonc-parser": "^3.2.1"
+  }
+}
