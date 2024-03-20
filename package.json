@@ -14,7 +14,8 @@
   },
   "type": "module",
   "scripts": {
-    "lan_free_dl": "node ./src/lan_free_dl.mjs"
+    "lan_free_dl": "node ./src/lan_free_dl.mjs",
+    "emo_db_gen": "node ./src/emo_db_gen.mjs"
   },
   "dependencies": {
     "better-sqlite3": "^9.4.3",
