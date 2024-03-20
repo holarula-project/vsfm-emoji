@@ -22,7 +22,7 @@ const args = new Set([...process.argv.slice(2)]);
 
 // 下载表情包仓库 ZIP, 需要传递 `-dl` 参数
 if (args.has("-dl")) {
-  await download(URL.ORIGIN, EMOTE_FOLDER, {
+  await download(URL[args.has("-forked") ? "FORKED" : "ORIGIN"], EMOTE_FOLDER, {
     extract: true,
     filename: "emotes.zip",
     strip: 1,
