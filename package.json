@@ -16,6 +16,8 @@
   "scripts": {
     "0": "node ./src/0_lan_emote_free_download.mjs",
     "1": "node ./src/1_generate_emote_database.mjs",
+    "2": "node ./src/2_fix_invalid_emoji.mjs",
+    "3": "node ./src/3_fix_json_unicode.mjs"
   },
   "dependencies": {
     "better-sqlite3": "^9.4.3",
