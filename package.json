@@ -14,8 +14,8 @@
   },
   "type": "module",
   "scripts": {
-    "lan_free_dl": "node ./src/lan_free_dl.mjs",
-    "emo_db_gen": "node ./src/emo_db_gen.mjs"
+    "0": "node ./src/0_lan_emote_free_download.mjs",
+    "1": "node ./src/1_generate_emote_database.mjs",
   },
   "dependencies": {
     "better-sqlite3": "^9.4.3",

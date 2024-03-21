@@ -1,5 +1,5 @@
 /**
- * 下载阿岚直播间的默认Emoji，包含通用Emoji和UP主大表情
+ * 下载阿岚直播间的默认Emoji，包含通用Emoji和UP主大表情。
  */
 import { parse } from "jsonc-parser";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
