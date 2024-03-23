@@ -23,6 +23,7 @@
     "better-sqlite3": "^9.4.3",
     "csv-stringify": "^6.4.6",
     "download": "^8.0.0",
-    "jsonc-parser": "^3.2.1"
+    "jsonc-parser": "^3.2.1",
+    "log-update": "^6.0.0"
   }
 }
